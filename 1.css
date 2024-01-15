@@ -1,62 +1,60 @@
-
-body{
-    background-color: rgb(163, 143, 118);
+body {
+	background-color: rgb(167, 147, 122);
 }
 
 header {
-    background-color: #414040;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+	background-color: #414040;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
-  h1{
-    text-align: center;
-    color: #d8d0d0;
-  }
+h1 {
+	text-align: center;
+	color: #d8d0d0;
+}
 
-  .global-menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+.global-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
 }
 
 .global-menu li {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 
 .global-menu a {
-  text-decoration: none;
-  color: rgb(219, 219, 207);
-  font-weight: bold;
+	text-decoration: none;
+	color: rgb(219, 219, 207);
+	font-weight: bold;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-template-rows: repeat(5, 1fr); 
-    gap: 20px; 
-  }
-  
-  
-  .grid-item {
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .grid-item:hover {
-    transform: scale(1.05); 
-    color: #414040;
-  }
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 100px);
+	gap: 20px;
+}
 
-  .global-menu a:hover {
-    transform: scale(1.05); 
-  }
+.grid-item {
+	border: 1px solid #ffffff;
+	padding: 20px;
+	text-align: center;
+}
 
-  .grid-item a{
-    text-decoration: none; 
-    color: rgb(53, 52, 52);
-  }
+.grid-item:hover {
+	transform: scale(1.05);
+	color: #414040;
+}
+
+.global-menu a:hover {
+	transform: scale(1.05);
+}
+
+.grid-item a {
+	text-decoration: none;
+	color: rgb(53, 52, 52);
+}
